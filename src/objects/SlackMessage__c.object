@@ -56,9 +56,132 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>AuthorIcon__c</fullName>
+        <externalId>false</externalId>
+        <label>Author Icon</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>AuthorLink__c</fullName>
+        <externalId>false</externalId>
+        <label>Author Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>AuthorName__c</fullName>
+        <externalId>false</externalId>
+        <label>Author Name</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Channel__c</fullName>
         <externalId>false</externalId>
         <label>Channel</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fallback__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Required plain-text summary of the attachment.</inlineHelpText>
+        <label>Fallback</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldsShort1__c</fullName>
+        <externalId>false</externalId>
+        <label>Fields Short1</label>
+        <picklist>
+            <picklistValues>
+                <fullName>true</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>false</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>FieldsShort2__c</fullName>
+        <externalId>false</externalId>
+        <label>Fields Short2</label>
+        <picklist>
+            <picklistValues>
+                <fullName>true</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>false</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>FieldsTitle1__c</fullName>
+        <externalId>false</externalId>
+        <label>Fields Title1</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldsTitle2__c</fullName>
+        <externalId>false</externalId>
+        <label>Fields Title2</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldsValue1__c</fullName>
+        <externalId>false</externalId>
+        <label>Fields Value1</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldsValue2__c</fullName>
+        <externalId>false</externalId>
+        <label>Fields Value2</label>
         <length>128</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -84,6 +207,34 @@
         <type>Url</type>
     </fields>
     <fields>
+        <fullName>ImageUrl__c</fullName>
+        <externalId>false</externalId>
+        <label>Image URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>IsAttachmentFormat__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>much more easy way to set RecordtypeId...</description>
+        <externalId>false</externalId>
+        <label>IsAttachmentFormat</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pretext__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional text that appears above the attachment block</inlineHelpText>
+        <label>Pretext</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Text__c</fullName>
         <externalId>false</externalId>
         <label>Text</label>
@@ -91,6 +242,32 @@
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ThumbUrl__c</fullName>
+        <externalId>false</externalId>
+        <label>Thumb URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>TitleLink__c</fullName>
+        <externalId>false</externalId>
+        <label>Title Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Username__c</fullName>
