@@ -4,4 +4,4 @@
 
 ## Package URL
 
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t28000000ULv7
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t28000000ULvC
