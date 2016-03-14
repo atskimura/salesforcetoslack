@@ -1,5 +1,7 @@
 public class Slack {
     public static void sendMessage(SlackMessage__c slackMsg) {
+        if (SlackSettings__c.getInstance().WebhookUrl__c == null)
+            return;
         if (String.isEmpty(slackMsg.Text__c))
             return;
         Message msg = new Message();
