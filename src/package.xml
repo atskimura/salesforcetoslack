@@ -12,10 +12,27 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>SlackMessage__c.AuthorIcon__c</members>
+        <members>SlackMessage__c.AuthorLink__c</members>
+        <members>SlackMessage__c.AuthorName__c</members>
         <members>SlackMessage__c.Channel__c</members>
+        <members>SlackMessage__c.Color__c</members>
+        <members>SlackMessage__c.Fallback__c</members>
+        <members>SlackMessage__c.FieldsShort1__c</members>
+        <members>SlackMessage__c.FieldsShort2__c</members>
+        <members>SlackMessage__c.FieldsTitle1__c</members>
+        <members>SlackMessage__c.FieldsTitle2__c</members>
+        <members>SlackMessage__c.FieldsValue1__c</members>
+        <members>SlackMessage__c.FieldsValue2__c</members>
         <members>SlackMessage__c.IconEmoji__c</members>
         <members>SlackMessage__c.IconUrl__c</members>
+        <members>SlackMessage__c.ImageUrl__c</members>
+        <members>SlackMessage__c.IsAttachmentFormat__c</members>
+        <members>SlackMessage__c.Pretext__c</members>
         <members>SlackMessage__c.Text__c</members>
+        <members>SlackMessage__c.ThumbUrl__c</members>
+        <members>SlackMessage__c.TitleLink__c</members>
+        <members>SlackMessage__c.Title__c</members>
         <members>SlackMessage__c.Username__c</members>
         <members>SlackSettings__c.WebhookUrl__c</members>
         <name>CustomField</name>
